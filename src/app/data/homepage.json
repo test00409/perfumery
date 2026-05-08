@@ -1,0 +1,788 @@
+{
+    "sections": [
+        {
+            "id": "header",
+            "component": "Header",
+            "order": 2,
+            "props": {
+                "logo": {
+                    "icon": "/img/Header/LogoMain.svg"
+                },
+                "navLinks": [
+                    {
+                        "label": "GENDER",
+                        "active": true
+                    },
+                    {
+                        "label": "SEASONAL"
+                    },
+                    {
+                        "label": "MOOD"
+                    },
+                    {
+                        "label": "NOTES"
+                    }
+                ],
+                "icons": {
+                    "search": "/img/Header/Search.svg",
+                    "cart": "/img/Header/Cart.svg",
+                    "account": "/img/Header/Account.svg"
+                }
+            }
+        },
+        {
+            "id": "hero",
+            "component": "HeroSection",
+            "order": 3,
+            "props": {
+                "webBanner": [
+                    {
+                        "imageUrl": "/img/HeroSection/hero-bnr-res1/Alexa-bnr.jpg",
+                        "productId": "alexa-white",
+                        "variantId": "5"
+                    },
+                    {
+                        "imageUrl": "/img/HeroSection/hero-bnr-res1/Hurricane-bnr.jpg",
+                        "productId": "hurricane",
+                        "variantId": "627"
+                    },
+                    {
+                        "imageUrl": "/img/HeroSection/hero-bnr-res1/Rishikesh-bnr.jpg",
+                        "productId": "rishikesh",
+                        "variantId": "633"
+                    },
+                    {
+                        "imageUrl": "/img/HeroSection/hero-bnr-res1/Rouge 666-bnr.jpg",
+                        "productId": "rouge-666",
+                        "variantId": "630"
+                    }
+                ],
+                "mobileBanner": [
+                    {
+                        "imageUrl": "/img/HeroSection/hero-bnr-res1/Alexa-bnr-r.jpg",
+                        "productId": "alexa-white",
+                        "variantId": "5"
+                    },
+                    {
+                        "imageUrl": "/img/HeroSection/hero-bnr-res1/huricane.jpg",
+                        "productId": "hurricane",
+                        "variantId": "627"
+                    },
+                    {
+                        "imageUrl": "/img/HeroSection/hero-bnr-res1/Rishikesh.jpg",
+                        "productId": "rishikesh",
+                        "variantId": "469"
+                    },
+                    {
+                        "imageUrl": "/img/HeroSection/hero-bnr-res1/Rouge 666.jpg",
+                        "productId": "rouge-666",
+                        "variantId": "630"
+                    }
+                ],
+                "headlineStyle": {
+                    "color": "#9A8F6D",
+                    "fontSize": "63px",
+                    "lineHeight": "80px",
+                    "fontFamily": "Carla Sans",
+                    "textTransform": "uppercase"
+                },
+                "sideBox": {
+                    "bgColor": "#9A8F6D",
+                    "width": 322,
+                    "height": 423
+                }
+            }
+        },
+        {
+            "id": "bestseller",
+            "component": "BestsellerSection",
+            "order": 4,
+            "props": {
+                "title": "BESTSELLERS",
+                "subtitle": "NEW ARRIVALS",
+                "image": "/img/Header/sectionHeaderLogo.svg",
+                "products": [
+                    {
+                        "id": 1,
+                        "name": "Luxury Perfume Gift Set For Men",
+                        "label": "BESTSELLER",
+                        "sortDescription": [
+                            "Gift Set for Men",
+                            "Luxury Perfume"
+                        ],
+                        "currentPrice": "₹499.00",
+                        "originalPrice": "₹849.00",
+                        "rating": 4.7,
+                        "reviews": 1300,
+                        "category": "Gift Set",
+                        "image": "/img/Bestseller/perfumProduct.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Luxury Perfume Gift Set For Women",
+                        "label": "NEW",
+                        "sortDescription": [
+                            "Gift Set for Women",
+                            "Floral Notes"
+                        ],
+                        "currentPrice": "₹599.00",
+                        "originalPrice": "₹999.00",
+                        "rating": 4.8,
+                        "reviews": 1120,
+                        "category": "Gift Set",
+                        "image": "/img/Bestseller/perfumProduct.png"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "shopByNotes",
+            "component": "ShopByNotes",
+            "order": 5,
+            "props": {
+                "title": "SHOP BY NOTES",
+                "image": "/img/ShopByNotes/sectionHeaderLogo.svg",
+                "notes": [
+                    {
+                        "icon": "/img/ShopByNotes/Fresh.png"
+                    },
+                    {
+                        "icon": "/img/ShopByNotes/Fruity.png"
+                    },
+                    {
+                        "icon": "/img/ShopByNotes/Floral.png"
+                    },
+                    {
+                        "icon": "/img/ShopByNotes/Spicy.png"
+                    },
+                    {
+                        "icon": "/img/ShopByNotes/Woody.png"
+                    },
+                    {
+                        "icon": "/img/ShopByNotes/Musky.png"
+                    },
+                    {
+                        "icon": "/img/ShopByNotes/Masculine.png"
+                    },
+                    {
+                        "icon": "/img/ShopByNotes/Oud.png"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "categories",
+            "component": "CategorySection",
+            "order": 6,
+            "props": {
+                "categories": [
+                    {
+                        "name": "Female",
+                        "image": "/img/CategorySection/theWomen.png"
+                    },
+                    {
+                        "name": "Male",
+                        "image": "/img/CategorySection/theMen.png"
+                    },
+                    {
+                        "name": "Unisex",
+                        "image": "/img/CategorySection/MobileViewUnisex.png",
+                        "mobileImage": "/img/CategorySection/MobileViewUnisex.png"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "crazyDeals",
+            "component": "CrazyDealsSection",
+            "order": 7,
+            "props": {
+                "title": "CRAZY DEALS",
+                "secondTitle": "",
+                "deals": [
+                    {
+                        "id": 1,
+                        "image": "/img/crazyDeals/limitedTime.png",
+                        "alt": "Get 2 Any Perfume Deal",
+                        "url": "/allproducts"
+                    },
+                    {
+                        "id": 2,
+                        "image": "/img/crazyDeals/hurriane.png",
+                        "alt": "Get 2 Any Perfume Deal Blue",
+                        "productId": "hurricane",
+                        "variantId": 808
+                    }
+                ]
+            }
+        },
+        {
+            "id": "shopByMood",
+            "component": "ShopByMood",
+            "order": 8,
+            "props": {
+                "title": "SHOP BY MOOD",
+                "moods": [
+                    {
+                        "id": 1,
+                        "name": "Gym",
+                        "image": "/img/ShopByMood/Gym.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Date",
+                        "image": "/img/ShopByMood/Date.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Party",
+                        "image": "/img/ShopByMood/Party.png"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Office",
+                        "image": "/img/ShopByMood/Office.png"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Sports",
+                        "image": "/img/ShopByMood/Sports1.png"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Daily",
+                        "image": "/img/ShopByMood/Daily1.png"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "luxuryPerfumeBanner",
+            "component": "LuxuryPerfumeBanner",
+            "order": 9,
+            "props": {
+                "image": "/img/LuxuryPerfumeBanner/LuxuryPerfumeBanner.png",
+                "mobileImage": "/img/LuxuryPerfumeBanner/mobileviewbanner.png",
+                "url": "/product/prodigified?variant=694"
+            }
+        },
+        {
+            "id": "videoPerfumeShowcase",
+            "component": "VideoPerfumeShowcase",
+            "order": 10,
+            "props": {
+                "videos": [
+                    {
+                        "id": 1,
+                        "video": "https://cdn.shopify.com/videos/c/vp/8b9d8dd54ae14f0fb5735780ec9768af/8b9d8dd54ae14f0fb5735780ec9768af.HD-720p-1.6Mbps-55344809.mp4"
+                    },
+                    {
+                        "id": 2,
+                        "video": "https://cdn.shopify.com/videos/c/vp/8b9d8dd54ae14f0fb5735780ec9768af/8b9d8dd54ae14f0fb5735780ec9768af.HD-720p-1.6Mbps-55344809.mp4"
+                    },
+                    {
+                        "id": 3,
+                        "video": "https://cdn.shopify.com/videos/c/vp/3ef7e02dea8c4de0ac9d16917db97d5d/3ef7e02dea8c4de0ac9d16917db97d5d.HD-720p-1.6Mbps-55344367.mp4"
+                    },
+                    {
+                        "id": 4,
+                        "video": "https://cdn.shopify.com/videos/c/vp/68c476f0682746ed971da51f0a0ca556/68c476f0682746ed971da51f0a0ca556.HD-720p-1.6Mbps-55344224.mp4"
+                    },
+                    {
+                        "id": 5,
+                        "video": "https://cdn.shopify.com/videos/c/vp/8b9d8dd54ae14f0fb5735780ec9768af/8b9d8dd54ae14f0fb5735780ec9768af.HD-720p-1.6Mbps-55344809.mp4"
+                    },
+                    {
+                        "id": 6,
+                        "video": "https://cdn.shopify.com/videos/c/vp/8b9d8dd54ae14f0fb5735780ec9768af/8b9d8dd54ae14f0fb5735780ec9768af.HD-720p-1.6Mbps-55344809.mp4"
+                    },
+                    {
+                        "id": 6,
+                        "video": "https://cdn.shopify.com/videos/c/vp/8b9d8dd54ae14f0fb5735780ec9768af/8b9d8dd54ae14f0fb5735780ec9768af.HD-720p-1.6Mbps-55344809.mp4"
+                    },
+                    {
+                        "id": 7,
+                        "video": "https://cdn.shopify.com/videos/c/vp/8b9d8dd54ae14f0fb5735780ec9768af/8b9d8dd54ae14f0fb5735780ec9768af.HD-720p-1.6Mbps-55344809.mp4"
+                    },
+                    {
+                        "id": 8,
+                        "video": "https://cdn.shopify.com/videos/c/vp/8b9d8dd54ae14f0fb5735780ec9768af/8b9d8dd54ae14f0fb5735780ec9768af.HD-720p-1.6Mbps-55344809.mp4"
+                    },
+                    {
+                        "id": 9,
+                        "video": "https://cdn.shopify.com/videos/c/vp/8b9d8dd54ae14f0fb5735780ec9768af/8b9d8dd54ae14f0fb5735780ec9768af.HD-720p-1.6Mbps-55344809.mp4"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "whyChooseUs",
+            "component": "WhyChooseUs",
+            "order": 11,
+            "props": {
+                "title": "WHY CHOOSE US",
+                "subtitle": "",
+                "features": [
+                    {
+                        "id": 1,
+                        "icon": "/img/whychooseus/animal.svg",
+                        "title": "CRUELTY FREE",
+                        "text": "Kindness in every bottle; our commitment to cruelty-free products."
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/img/whychooseus/perfume.svg",
+                        "title": "FRAGRANCE FORWARD",
+                        "text": "Luxurious & imported perfume oils in every product."
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/img/whychooseus/wallet.svg",
+                        "title": "AFFORDABLE LUXURY",
+                        "text": "Offering premium quality and elegance at a reasonable price."
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/img/whychooseus/ErrorChoose.svg",
+                        "title": "GENDER NEUTRAL",
+                        "text": "Elevate your self-care routine with bath, body and personal care for all."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "testimonialsSection",
+            "component": "TestimonialsSection",
+            "order": 12,
+            "props": {
+                "title": "PEOPLE LOVE US ",
+                "secondTitle": "(AND WE LOVE THEM)",
+                "subtitle": "",
+                "description": "We believe in preserving the purity of ancient wisdom. Every Rudraksha and astrological remedy we provide is carefully sourced and prepared to enhance positivity, harmony, and inner strength.",
+                "testimonials": [
+                    {
+                        "id": 1,
+                        "image": "/img/productDetails/ImageFive.png",
+                        "username": "@Nikhil Vaddoriya",
+                        "rating": 2,
+                        "text": "Experience the allure of luxury scents, crafted to perfection, without the hefty price tag! At XLNC Perfumery, we believe everyone deserves to smell like a million bucks without spending it."
+                    },
+                    {
+                        "id": 2,
+                        "image": "/img/productDetails/ImageFour.png",
+                        "username": "@Bhart Suhagiya",
+                        "rating": 5,
+                        "text": "Absolutely love these perfumes! They last long and smell divine. Feels like luxury without the price tag."
+                    },
+                    {
+                        "id": 3,
+                        "image": "/img/productDetails/ImageTwo.png",
+                        "username": "@Kapil Paghadar",
+                        "rating": 3,
+                        "text": "These scents are my daily essentials now. The packaging, fragrance, and staying power are just perfect!"
+                    },
+                    {
+                        "id": 4,
+                        "image": "/img/productDetails/ImageFive.png",
+                        "username": "@Bipin Patel",
+                        "rating": 4.5,
+                        "text": "These scents are my daily essentials now. The packaging, fragrance, and staying power are just perfect!"
+                    },
+                    {
+                        "id": 5,
+                        "image": "/img/productDetails/ImageFour.png",
+                        "username": "@Krunal patel",
+                        "rating": 4,
+                        "text": "These scents are my daily essentials now. The packaging, fragrance, and staying power are just perfect!"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "blogSection",
+            "component": "BlogSection",
+            "order": 13,
+            "props": {
+                "title": "OUR BLOG",
+                "subtitle": "",
+                "posts": [
+                    {
+                        "id": 1,
+                        "slug": "scent-memory-and-emotions",
+                        "image": "/img/BlogSection/fristImage.png",
+                        "title": "Scent Memory: How Fragrances Evoke Emotions and Why It Matters for Your Choice...",
+                        "date": "AUG 07,",
+                        "description": "Fragrances are deeply connected to memory and emotion. A single scent can transport you back to a cherished moment, influence your mood, and shape your identity. Understanding scent memory helps you choose perfumes that truly resonate with who you are."
+                    },
+                    {
+                        "id": 2,
+                        "slug": "secret-notes-signature-perfumes",
+                        "image": "/img/BlogSection/SecondImage.png",
+                        "title": "Discover the Secret Notes Behind Our Signature Perfumes and How They Tell Your Story...",
+                        "date": "AUG 07,",
+                        "description": "Every signature perfume tells a story through its notes. From fresh top notes to deep base accords, each layer reflects personality, confidence, and individuality."
+                    },
+                    {
+                        "id": 3,
+                        "slug": "day-to-night-perfume-guide",
+                        "image": "/img/BlogSection/ThirdImage.png",
+                        "title": "From Day to Night: How to Choose Perfumes that Match Your Lifestyle and Mood...",
+                        "date": "AUG 07,",
+                        "description": "Choosing the right perfume for different times of the day can elevate your lifestyle. Light scents work best during the day, while intense and warm notes shine at night."
+                    },
+                    {
+                        "id": 4,
+                        "slug": "scent-and-confidence",
+                        "image": "/img/BlogSection/FourthImage.png",
+                        "title": "Scent & Confidence: The Subtle Power of Fragrance in Daily Life and Style...",
+                        "date": "AUG 07,",
+                        "description": "The right fragrance boosts confidence and enhances personal style. A well-chosen scent becomes an invisible accessory that leaves a lasting impression."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "appOfferBanner",
+            "component": "AppOfferBanner",
+            "order": 14,
+            "props": {
+                "image": "/img/AppOfferSection/appbannerweb.jpg",
+                "mobileImage": "/img/AppOfferSection/Bottom banner - res.jpg"
+            }
+        },
+        {
+            "id": "footer",
+            "component": "FooterSection",
+            "order": 15,
+            "props": {
+                "reachUs": {
+                    "title": "Reach Us",
+                    "email": "sales@perfumerykart.com",
+                    "phone": "+91-9115197197"
+                },
+                "stores": {
+                    "title": "Stores",
+                    "addresses": [
+                        "BUNGLOW 27, TEJDHARA BUNGLOWS, AHMEDABAD",
+                        "GUWAHATI AIRPORT ARRIVALS",
+                        "CHENNAI AIRPORT T1 DEPARTURES",
+                        "CHENNAI AIRPORT T4 DEPARTURES"
+                    ]
+                },
+                "policies": {
+                    "title": "Policies",
+                    "items": [
+                        {
+                            "label": "Terms of Service",
+                            "url": "/terms"
+                        },
+                        {
+                            "label": "Privacy Policy",
+                            "url": "/privacy"
+                        },
+                        {
+                            "label": "Refund Policy",
+                            "url": "/refund"
+                        },
+                        {
+                            "label": "Cancellation Policy",
+                            "url": "/cancellation"
+                        }
+                    ]
+                },
+                "social": [
+                    {
+                        "name": "twitter",
+                        "url": "https://x.com/Perfumery_India"
+                    },
+                    {
+                        "name": "facebook",
+                        "url": "https://www.facebook.com/perfumerykart"
+                    },
+                    {
+                        "name": "instagram",
+                        "url": "https://www.instagram.com/Perfumery.OG"
+                    }
+                ],
+                "copyright": "Perfumery is the flagship product of Stringcore Technolabs Private Limited. All rights reserved. © Perfumery 2026"
+            }
+        },
+        {
+            "id": "productDetail",
+            "component": "ProductDetailSection",
+            "order": 12,
+            "props": {
+                "name": "ALEXA WHITE POWER EDITION",
+                "subtitle": "Ice Base | Amber Musk",
+                "ratingIcon": "/img/productDetails/rating.svg",
+                "rating": 4.9,
+                "reviews": 327,
+                "price": "₹2,199.00",
+                "discount": "-53%",
+                "mrp": "₹25,000",
+                "lowestTag": "Lowest price of the month",
+                "sizes": [
+                    {
+                        "label": "10 ML",
+                        "bg": "#4494FD1A",
+                        "color": "#4494FD"
+                    },
+                    {
+                        "label": "50 ML",
+                        "bg": "#4494FD1A",
+                        "color": "#4494FD"
+                    },
+                    {
+                        "label": "100 ML",
+                        "bg": "#4494FD1A",
+                        "color": "#4494FD"
+                    }
+                ],
+                "personalize": {
+                    "title": "Personalize Perfume",
+                    "text": "Personalize With Your Name Or Message For Just ₹75 Extra – Prepaid Only!",
+                    "icon": "/img/productDetails/edit-icon.svg",
+                    "arrowIcon": "/img/productDetails/arrow-right.svg",
+                    "bgColor": "#FFFAF2",
+                    "borderColor": "#E5DCC5"
+                },
+                "images": [
+                    "/img/productDetails/ImageOne.png",
+                    "/img/productDetails/ImageTwo.png",
+                    "/img/productDetails/ImageThree.png",
+                    "/img/productDetails/ImageFour.png",
+                    "/img/productDetails/ImageFive.png",
+                    "/img/productDetails/ImageSix.png"
+                ],
+                "features": [
+                    {
+                        "icon": "/img/productDetails/LongLasting.svg",
+                        "title": "Long Lasting"
+                    },
+                    {
+                        "icon": "/img/productDetails/IFRACertified.svg",
+                        "title": "IFRA - Certified"
+                    },
+                    {
+                        "icon": "/img/productDetails/ImportedOils.svg",
+                        "title": "Imported Oils"
+                    },
+                    {
+                        "icon": "/img/productDetails/MadeInIndia.svg",
+                        "title": "Made In India"
+                    }
+                ],
+                "description": {
+                    "text": "Bring out your inner CEO to work everyday with the Bella Vita Luxury CEO Man Luxury Perfume.",
+                    "readMore": "Read more"
+                },
+                "offers": [
+                    {
+                        "title": "2 FOR ₹949",
+                        "text": "Any 2 100ml perfumes for just ₹949!",
+                        "subtitle": "Perfect Jodi"
+                    },
+                    {
+                        "title": "3 FOR ₹1298",
+                        "text": "Get any 3 Perfumes for just ₹1298",
+                        "subtitle": "Ultimate Perfume Box"
+                    },
+                    {
+                        "title": "6 FOR ₹1298",
+                        "text": "Get any 100ml perfume and 5 skincare products for just ₹1298!",
+                        "subtitle": "Self Love Kit"
+                    }
+                ],
+                "banner": {
+                    "image": "/img/productDetails/manBanner.png",
+                    "text": "",
+                    "bgColor": "#0E1311"
+                },
+                "keyBenefits": {
+                    "title": "KEY BENEFITS",
+                    "list": [
+                        "IFRA-certified and safe to use on skin",
+                        "Long-lasting",
+                        "Made with imported oils"
+                    ]
+                },
+                "howToUseSection": {
+                    "title": "HOW TO USE",
+                    "text": "Spray the perfume on your pulse points such as sides of the neck and wrists for all day freshness."
+                },
+                "notes": {
+                    "title": "PERFUME NOTES",
+                    "list": [
+                        {
+                            "image": "/img/productDetails/lemon.png",
+                            "title": "LEMON",
+                            "text": "It helps in reducing skin damage and soothes inflamed skin and controls premature ageing."
+                        },
+                        {
+                            "image": "/img/productDetails/lavender.png",
+                            "title": "LAVENDER",
+                            "text": "Adds a sense of freshness to the scent. Keeps you at peace and calms the vibe."
+                        },
+                        {
+                            "image": "/img/productDetails/moss.png",
+                            "title": "MOSS",
+                            "text": "It provides depth and complexity, evoking the serene essence of the forest floor."
+                        }
+                    ]
+                },
+                "firstPurchaseSection": {
+                    "title": "IS THIS YOUR FIRST BELLA VITA PURCHASE?",
+                    "paragraphs": [
+                        "We’ve all had the experience of seeing ads that promise the world, bought it, and realised it wasn’t quite as advertised. That’s no good. We at BELLAVITA take a different approach before launching any perfume:",
+                        "In-Depth Consumer Research: Each of our perfumes is backed by hundreds of days of comprehensive consumer research, tailoring scents to meet the genuine needs and preferences of the Indian consumer while keeping in mind the Indian climate.",
+                        "Superior Ingredients: We source our premium ingredients from France, Spain, and Italy, known world-over for their quality and uniqueness in fragrance.",
+                        "Proven Longevity: Our perfumes are designed to last, offering 8 to 10 hours of enduring scent, ensuring you stay fresh throughout the day.",
+                        "IFRA Certification: Commitment to safety and quality is paramount and so all our perfumes are IFRA-certified, meeting rigorous international standards, making them safe to use on skin."
+                    ],
+                    "images": [
+                        "/img/productDetails/BellvitaProductOne.png",
+                        "/img/productDetails/BellvitaProductTwo.png",
+                        "/img/productDetails/BellvitaProductThree.png",
+                        "/img/productDetails/BellvitaProductFour.png"
+                    ],
+                    "footerText": "Still not convinced? If you’re still not sure what you are looking for, you can try our perfume trial pack, which offers you the chance to try out our 10 perfumes at just ₹349!"
+                },
+                "faq": [
+                    {
+                        "q": "CEO Man Luxury perfume is long lasting?",
+                        "a": "Yes, the CEO Man Luxury perfume lasts up to 8 hours. As a result, you won’t experience any long-lasting problems with our perfumes, which were carefully formulated for the Indian climate."
+                    },
+                    {
+                        "q": "Is there any side effect of perfumes?",
+                        "a": "Our perfumes are created for sensitive skin so that everyone can smell and feel good due to which there are no side effects."
+                    },
+                    {
+                        "q": "How can I use perfume safely?",
+                        "a": "Apply moisturiser and then spray the perfume on your skin."
+                    },
+                    {
+                        "q": "What are the main notes in CEO Man Perfume?",
+                        "a": "CEO Man Perfume has top notes of Lemon and Sugar with Lavender in the medium and Vetiver, Moss and Tonka at its base."
+                    },
+                    {
+                        "q": "",
+                        "a": "The perfume lasts longer and smells better overall when you moisturise your skin before applying it. On very dry skin, perfume often evaporates quickly. Instead, attempt misting it over a thin layer of fragrance-free body lotion or a dab of petroleum jelly. These moisturisers not only keep your skin supple and silky, but they also provide a surface for the perfume oils to cling to, extending the duration of your perfume."
+                    }
+                ],
+                "otherInformation": {
+                    "title": "OTHER INFORMATION",
+                    "marketedBy": {
+                        "label": "Marketed By",
+                        "company": "IDAM Natural Wellness Pvt. Ltd.",
+                        "address": "417, First Floor, Udyog Vihar Phase 3, Sector 20, Gurugram, 122008 Haryana, India"
+                    },
+                    "manufacturedBy": {
+                        "label": "Manufactured By",
+                        "company": "Stella Industries Limited",
+                        "address": "Old Khandsa Road, Sector-37, HSIIDC, Gurugram-122001, Haryana, India"
+                    },
+                    "countryOfOrigin": "India"
+                },
+                "ingredients": {
+                    "title": "ALL INGREDIENTS",
+                    "list": "Alcohol Denat, Fragrance (PARFUM), Aqua, BHT."
+                },
+                "reviewsSummary": {
+                    "averageRating": 4.9,
+                    "totalReviews": 1105,
+                    "ratingsBreakdown": {
+                        "5": 520,
+                        "4": 152,
+                        "3": 21,
+                        "2": 2,
+                        "1": 2
+                    },
+                    "reviews": [
+                        {
+                            "id": 1,
+                            "name": "Rounak Sharma",
+                            "location": "Kolkata",
+                            "date": "Sep, 2021",
+                            "rating": 5,
+                            "text": "Good for college and school going students. It is a very sweet fragrance which make it a unisex perfume. Good for evenings and winter.",
+                            "images": [
+                                "/img/productDetails/perfumProduct.png",
+                                "/img/productDetails/perfumProduct.png",
+                                "/img/productDetails/perfumProduct.png",
+                                "/img/productDetails/perfumProduct.png"
+                            ],
+                            "likes": 1062,
+                            "dislikes": 122,
+                            "certifiedBuyer": true
+                        },
+                        {
+                            "id": 2,
+                            "name": "Priya Desai",
+                            "location": "Ahmedabad",
+                            "date": "Jan, 2023",
+                            "rating": 4,
+                            "text": "A floral and fresh scent! Loved the packaging. Longevity could be a little better, but overall great purchase.",
+                            "images": [
+                                "/img/productDetails/perfumProduct.png",
+                                "/img/productDetails/perfumProduct.png"
+                            ],
+                            "likes": 540,
+                            "dislikes": 40,
+                            "certifiedBuyer": true
+                        },
+                        {
+                            "id": 3,
+                            "name": "Manav Patel",
+                            "location": "Pune",
+                            "date": "Jul, 2022",
+                            "rating": 5,
+                            "text": "Smells luxurious and long-lasting. I use it every morning before work and it stays the whole day!",
+                            "images": [],
+                            "likes": 870,
+                            "dislikes": 12,
+                            "certifiedBuyer": true
+                        }
+                    ]
+                },
+                "relatedProducts": [
+                    {
+                        "id": 1,
+                        "name": "Tiger Man Perfume - 100ml",
+                        "currentPrice": "₹1299.00",
+                        "originalPrice": "₹2199.00",
+                        "rating": 4.9,
+                        "reviews": 327,
+                        "category": "Men Perfume",
+                        "image": "/img/Bestseller/perfumProduct.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Luxury Perfume 2 - 50ml",
+                        "currentPrice": "₹999.00",
+                        "originalPrice": "₹1899.00",
+                        "rating": 4.8,
+                        "reviews": 290,
+                        "category": "Women Perfume",
+                        "image": "/img/Bestseller/perfumProduct.png"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "slug": "perfume-layering-guide",
+            "image": "/img/blogs/blog1.jpg",
+            "title": "The Art of Perfume Layering",
+            "date": "12 Sep 2025",
+            "description": "Perfume layering is a refined art that allows you to create a signature scent. By combining complementary fragrances, you can enhance longevity and depth. Start with a base note, add a heart note, and finish with a fresh top note for best results."
+        },
+        {
+            "id": 2,
+            "slug": "summer-fragrance-tips",
+            "image": "/img/blogs/blog2.jpg",
+            "title": "Best Summer Fragrances",
+            "date": "20 Aug 2025",
+            "description": "Summer fragrances should be light, refreshing, and long-lasting. Citrus, aquatic, and floral notes work best in hot weather. Always apply on pulse points and avoid over-spraying."
+        }
+    ]
+}

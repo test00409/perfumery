@@ -1,0 +1,19 @@
+
+.btn-shake {
+  background-color: #0E1311;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-shake:hover {
+  animation: shake 0.5s infinite;
+  background-color: #9A8F6D;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px) rotate(-3deg); }
+  50% { transform: translateX(5px) rotate(3deg); }
+  75% { transform: translateX(-5px) rotate(-3deg); }
+  100% { transform: translateX(0); }
+}

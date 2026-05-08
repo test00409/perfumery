@@ -1,0 +1,81 @@
+{
+  "id": "cartPage",
+  "component": "CartPage",
+  "props": {
+    "freeGiftBanner": {
+      "message": "Shop for ₹351 more to Unlock a FREE Gift",
+      "progress": 0.85,
+      "threshold": 3000,
+      "gifts": [
+        {
+          "name": "CEO Shower Gel",
+          "price": 800,
+          "image": "/img/CartItems/ImageOne.png",
+          "status": "unlocked"
+        },
+        {
+          "name": "CEO Shower Gel",
+          "price": 800,
+          "image": "/img/CartItems/ImageOne.png",
+          "status": "unlocked"
+        },
+        {
+          "name": "CEO Shower Gel",
+          "price": 800,
+          "image": "/img/CartItems/ImageOne.png",
+          "status": "next"
+        }
+      ]
+    },
+    "cartItems": [
+      {
+        "id": 1,
+        "name": "ALEXA WHITE POWER EDITION - 26.5% | Ice",
+        "image": "/img/CartItems/ImageOne.png",
+        "price": 2199,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "ALEXA WHITE POWER EDITION - 26.5% | Ice",
+        "image": "/img/CartItems/ImageOne.png",
+        "price": 2199,
+        "quantity": 1
+      }
+    ],
+    "recommendations": {
+      "lowestPrice": {
+        "products": [
+          {
+            "image": "/img/CartItems/ImageOne.png",
+            "name": "ALEXA WHITE POWER EDITION - 26.5% | Ice"
+          },
+          {
+            "image": "/img/CartItems/ImageOne.png",
+            "name": "ALEXA WHITE POWER EDITION - 26.5% | Ice"
+          },
+          {
+            "image": "/img/CartItems/ImageOne.png",
+            "name": "ALEXA WHITE POWER EDITION - 26.5% | Ice"
+          }
+        ]
+      },
+      "youMayAlsoLike": {
+        "products": [
+          {
+            "image": "/img/CartItems/ImageOne.png",
+            "name": "ALEXA WHITE POWER EDITION - 26.5% | Ice"
+          },
+          {
+            "image": "/img/CartItems/ImageOne.png",
+            "name": "ALEXA WHITE POWER EDITION - 26.5% | Ice"
+          },
+          {
+            "image": "/img/CartItems/ImageOne.png",
+            "name": "ALEXA WHITE POWER EDITION - 26.5% | Ice"
+          }
+        ]
+      }
+    }
+  }
+}
